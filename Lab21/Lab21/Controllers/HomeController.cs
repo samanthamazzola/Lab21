@@ -36,6 +36,7 @@ namespace Lab21.Controllers
 
         public IActionResult AddUser()
         {
+            ViewData["UserMessage"] = "Welcome {FirstName}!";
             return View();
         }
 

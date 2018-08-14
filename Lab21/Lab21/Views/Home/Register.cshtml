@@ -7,9 +7,11 @@
 <br />
 <h2>Please fill out the form to register for GC Coffee Shop Rewards!</h2><br /><br />
 
+@*If you’re wondering what the __RequestVerificationToken is, this is a neat way to reduce the 
+risk of your application being duped by a cross site request forgery attack.*@
+
 <form action="/Home/AddUser" method="post">
     <label for="FirstName">First Name: </label>
-    <input placeholder="John" type="text" id="firstName" name="firstName" value="">
     <input name="__RequestVerificationToken" type="hidden" value="<token_generated_here>">
     </br></br>
     <label for="LastName">Last Name: </label>
@@ -32,20 +34,20 @@
 </form>
 
 @*<div class="registrationForm">
-    <label>First Name: </label> <input type="text" name="firstName" />
-    </br>
-    </br>
-    <label>Last Name: </label> <input type="text" name="lastName" />
-    </br>
-    </br>
-    <label>Email: </label> <input type="text" name="email" />
-    </br>
-    </br>
-    <Label>Phone Number: </Label> <input type="text" name="phoneNumber" />
-    </br>
-    </br>
-    <label>Password: </label> <input type="password" name="password" />
-    </br>
-    </br>
-    <input type="submit" value="Register" id="register" />
-</div>*@
+        <label>First Name: </label> <input type="text" name="firstName" />
+        </br>
+        </br>
+        <label>Last Name: </label> <input type="text" name="lastName" />
+        </br>
+        </br>
+        <label>Email: </label> <input type="text" name="email" />
+        </br>
+        </br>
+        <Label>Phone Number: </Label> <input type="text" name="phoneNumber" />
+        </br>
+        </br>
+        <label>Password: </label> <input type="password" name="password" />
+        </br>
+        </br>
+        <input type="submit" value="Register" id="register" />
+    </div>*@
