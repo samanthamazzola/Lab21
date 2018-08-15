@@ -32,3 +32,6 @@
 /Users/samanthamazzola/Documents/Projects/Lab21/Lab21/Lab21/obj/Debug/netcoreapp2.1/Lab21.dll
 /Users/samanthamazzola/Documents/Projects/Lab21/Lab21/Lab21/obj/Debug/netcoreapp2.1/Lab21.pdb
 /Users/samanthamazzola/Documents/Projects/Lab21/Lab21/Lab21/obj/Debug/netcoreapp2.1/Lab21.csproj.CopyComplete
+/Users/samanthamazzola/Documents/Projects/Lab21/Lab21/Lab21/obj/Debug/netcoreapp2.1/Razor/Views/Home/Signup.g.cshtml.cs
+/Users/samanthamazzola/Documents/Projects/Lab21/Lab21/Lab21/obj/Debug/netcoreapp2.1/Razor/Views/Confirm.g.cshtml.cs
+/Users/samanthamazzola/Documents/Projects/Lab21/Lab21/Lab21/obj/Debug/netcoreapp2.1/Razor/Views/Home/Error.g.cshtml.cs

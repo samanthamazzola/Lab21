@@ -2,7 +2,8 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
-    ViewData["Title"] = "Register";
+    //ViewData["Title"] = "Register";
+    ViewBag.Title = "Register";
 }
 <br />
 <h2>Please fill out the form to register for GC Coffee Shop Rewards!</h2><br /><br />
@@ -10,33 +11,33 @@
 
 <form class="form-horizontal" action="/Home/AddUser" method="post">
     <div class="form-group">
-        <label class="control-label col-sm-2" id="firstName">First Name:</label>
+        <label class="control-label col-sm-2" id="FirstName">First Name:</label>
         <div class="col-sm-7">
-            <input type="text" class="form-control" id="firstName" placeholder="John" pattern="[a-zA-Z]{1}[a-zA-Z]{1,}">
+            <input type="text" class="form-control" id="FirstName" placeholder="John" pattern="[a-zA-Z]{1}[a-zA-Z]{1,}"/>
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-sm-2" id="lastName">Last Name:</label>
+        <label class="control-label col-sm-2" id="LastName">Last Name:</label>
         <div class="col-sm-7">
-            <input type="text" class="form-control" id="lastName" placeholder="Doe" pattern="[a-zA-Z]{1}[a-zA-Z]{1,}">
+            <input type="text" class="form-control" id="LastName" placeholder="Doe" pattern="[a-zA-Z]{1}[a-zA-Z]{1,}"/>
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-sm-2" id="email">Email:</label>
+        <label class="control-label col-sm-2" id="Email">Email:</label>
         <div class="col-sm-7">
-            <input type="email" class="form-control" id="email" placeholder="example@email.com"> <!--pattern="\w+([-+.]\w+)*"atSign""\w+([-.]\w+)*\.\w+([-.]\w+)*" -->
+            <input type="email" class="form-control" id="Email" placeholder="example@email.com"/> <!--pattern="\w+([-+.]\w+)*"atSign""\w+([-.]\w+)*\.\w+([-.]\w+)*" -->
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-sm-2" id="phoneNum">Phone Number:</label>
+        <label class="control-label col-sm-2" id="PhoneNum">Phone Number:</label>
         <div class="col-sm-7">
-            <input type="tel" class="form-control" id="phoneNum" placeholder="000-000-0000" pattern="\d{3}-\d{3}-\d{4}">
+            <input type="tel" class="form-control" id="PhoneNum" placeholder="000-000-0000" pattern="\d{3}-\d{3}-\d{4}"/>
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-sm-2" id="pwd">Password:</label>
+        <label class="control-label col-sm-2" id="Pwd">Password:</label>
         <div class="col-sm-7">
-            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+            <input type="password" class="form-control" id="Pwd" placeholder="Enter password"/>
         </div>
     </div>
     <div class="form-group">

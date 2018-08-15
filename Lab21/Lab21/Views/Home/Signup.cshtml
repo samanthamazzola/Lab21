@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    //ViewData["Title"] = "Sign up";
+    ViewBag.Title = "Sign up";
+
+}
+</br></br>
+<h2>@ViewBag.Title</h2>
+</br>
+<p>@ViewBag.SignupMessage</p>
+</br></br>
+<form class="form-horizontal" action="/Home/AddUser" method="post">
+    <div class="form-group">
+        <label class="control-label col-sm-2" id="FirstName">First Name:</label>
+        <div class="col-sm-7">
+            <input type="text" class="form-control" id="FirstName" placeholder="John" /> @*required pattern="[a-zA-Z]{1}[a-zA-Z]{1,}"*@
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" id="LastName">Last Name:</label>
+        <div class="col-sm-7">
+            <input type="text" class="form-control" id="LastName" placeholder="Doe" />
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-7">
+            <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-7">
+            <button onclick="myFunction()" type="submit" class="btn btn-default"><span class="glyphicon glyphicon-user"></span> Sign up!</button>
+        </div>
+    </div>
+</form>
+
+
