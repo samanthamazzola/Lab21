@@ -10,8 +10,10 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\bitmoji_fireprayer.png" />
+    <Content Remove="wwwroot\bitmoji_fireprayer.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\bitmoji_fireprayer.png" />
+    <None Include="wwwroot\bitmoji_fireprayer.ico" />
   </ItemGroup>
 </Project>

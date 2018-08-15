@@ -29,7 +29,6 @@ namespace Lab21.Models
         [Required] // the feature Required is an attributes: hold code behind it
         // required is saying, if FirstName is set, give it. validates input
         [RegularExpression("[a-zA-Z]{1}[a-zA-Z]{1,}")]
-
         public string FirstName { set; get; }
         [Required]
         [RegularExpression("[a-zA-Z]{1}[a-zA-Z]{1,}")]
