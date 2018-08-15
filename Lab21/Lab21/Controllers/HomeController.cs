@@ -34,6 +34,12 @@ namespace Lab21.Controllers
             return View();
         }
 
+        [HttpPost("Register/{id:fistName}")]
+        public IActionResult ShowProduct(string id)
+        {
+            // ...
+        }
+
         public IActionResult AddUser()
         {
             ViewData["UserMessage"] = "Welcome {FirstName}!";
@@ -52,3 +58,5 @@ namespace Lab21.Controllers
         }
     }
 }
+
+
