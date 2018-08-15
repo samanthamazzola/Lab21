@@ -59,5 +59,12 @@ namespace Lab21
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
+
+        //added constructor to the startup class
+        //public Startup()
+        //{
+
+
+        //}
     }
 }

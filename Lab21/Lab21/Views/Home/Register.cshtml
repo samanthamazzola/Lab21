@@ -10,31 +10,31 @@
 
 <form class="form-horizontal" action="/Home/AddUser" method="post">
     <div class="form-group">
-        <label class="control-label col-sm-2" for="firstName">First Name:</label>
+        <label class="control-label col-sm-2" id="firstName">First Name:</label>
         <div class="col-sm-7">
             <input type="text" class="form-control" id="firstName" placeholder="John" pattern="[a-zA-Z]{1}[a-zA-Z]{1,}">
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-sm-2" for="lastName">Last Name:</label>
+        <label class="control-label col-sm-2" id="lastName">Last Name:</label>
         <div class="col-sm-7">
-            <input type="text" class="form-control" id=lastName placeholder="Doe" pattern="[a-zA-Z]{1}[a-zA-Z]{1,}">
+            <input type="text" class="form-control" id="lastName" placeholder="Doe" pattern="[a-zA-Z]{1}[a-zA-Z]{1,}">
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-sm-2" for="email">Email:</label>
+        <label class="control-label col-sm-2" id="email">Email:</label>
         <div class="col-sm-7">
-            <input type="email" class="form-control" id="email" placeholder="example@email.com">
+            <input type="email" class="form-control" id="email" placeholder="example@email.com"> <!--pattern="\w+([-+.]\w+)*"atSign""\w+([-.]\w+)*\.\w+([-.]\w+)*" -->
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-sm-2" for="phoneNum">Phone Number:</label>
+        <label class="control-label col-sm-2" id="phoneNum">Phone Number:</label>
         <div class="col-sm-7">
             <input type="tel" class="form-control" id="phoneNum" placeholder="000-000-0000" pattern="\d{3}-\d{3}-\d{4}">
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-sm-2" for="pwd">Password:</label>
+        <label class="control-label col-sm-2" id="pwd">Password:</label>
         <div class="col-sm-7">
             <input type="password" class="form-control" id="pwd" placeholder="Enter password">
         </div>
