@@ -34,11 +34,11 @@ namespace Lab21.Controllers
             return View();
         }
 
-        [HttpPost("Register/{id:fistName}")]
-        public IActionResult ShowProduct(string id)
-        {
-            // ...
-        }
+        //[HttpPost("Register/{id:fistName}")]
+        //public IActionResult ShowProduct(string id)
+        //{
+        //    // ...
+        //}
 
         public IActionResult AddUser()
         {
