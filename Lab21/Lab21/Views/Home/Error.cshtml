@@ -5,24 +5,24 @@
     ViewBag.Title = "Error";
 }
 <br /><br />
-
+<br /><br />
 <h1><strong>Error!</strong></h1>
 <br />
-  <form class="form-horizontal" action="/Home" method="post">
-      <div class="form-group">
-          <div class="col-sm-7">
-              <h1 style="color:red">HELLO WHAT ARE YOU DOING?!?!?!?!</h1>
-              <br />
-                @Html.ValidationSummary() @*shows the errors that were made*@
-              <br />
-              <img src="https://media.giphy.com/media/1RkDDoIVs3ntm/giphy.gif" alt="nah" />
-              <br />
-          </div>
-      </div>
-      <br />
-      <div class="form-group">
-          <div class="col-sm-7">
-              <button onclick="MyFunction()" type="submit" class="btn btn-default"><span class="glyphicon glyphicon-home"></span> Back to Homepage</button>
-          </div>
-      </div>
-  </form>
+<form class="form-horizontal" action="/Home" method="post">
+    <div class="form-group">
+        <div class="col-sm-7">
+            <h1 style="color:red">HELLO WHAT ARE YOU DOING?!?!?!?!</h1>
+            <br />
+            @Html.ValidationSummary() @*shows the errors that were made*@
+            <br />
+            <img src="https://media.giphy.com/media/1RkDDoIVs3ntm/giphy.gif" alt="nah" />
+            <br />
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        <div class="col-sm-7">
+            <button onclick="MyFunction()" type="submit" class="btn btn-default"><span class="glyphicon glyphicon-home"></span> Back to Homepage</button>
+        </div>
+    </div>
+</form>

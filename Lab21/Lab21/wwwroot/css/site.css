@@ -1,14 +1,11 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
 body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    background-image: url("/../images/matrix-1274888_960_720.png");
-    background-size: 100%;
-    background-repeat: no-repeat, repeat;
-    background-attachment: fixed;
-    background-position: center;
-    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
 }
 
 /* Wrapping element */
@@ -16,11 +13,7 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-    background-image: url("/../images/matrix-1274888_960_720.png");
-    background-size: 100%;
-    background-repeat: no-repeat, repeat;
-    background-attachment: fixed;
-    background-position: center;
+
     color: black;
 }
 
@@ -55,9 +48,11 @@ body {
 #myDiv {
     width: 300px;
     height: 200px;
-    background: gainsboro;
-    -webkit-animation: wavybby 5s infinite; /* Chrome, Safari, Opera */
+    background-color: gainsboro;
+    background-image: url(/../images/matrix-1274888_960_720.png);
+    -webkit-animation: wavybby 5s infinite;
     animation: wavybby 5s infinite;
+    background-repeat-y: no-repeat;
 }
 
 /* Chrome, Safari, Opera */
@@ -65,7 +60,7 @@ body {
     0% {
         background-color: violet;
     }
-    
+
     20% {
         background-color: blueviolet;
     }
