@@ -5,12 +5,20 @@
     ViewBag.Title = "Confirm";
 }
 <br /><br />
-<h2>Confirm</h2>
+<h3>Confirmation Message: </h3>
 <br /><br />
-<h3>@ViewBag.ConfMessage</h3>
-<br /><br />
-
-<div class="alert alert-success">
-    <strong>Success!</strong>
-</div>
-<br /><br />
+      <form action="/Home" method="post">
+          <div class="alert alert-success">
+              <span><strong>Great success! </strong>@ViewBag.ConfMessage</></span>
+          </div>
+          <br />
+          <img src="https://media.giphy.com/media/a0h7sAqON67nO/giphy.gif" alt="high five" />
+          <br />
+          <br />
+          <div class="form-group">
+              <div class="col-sm-7">
+                  <button onclick="MyFunction()" type="submit" class="btn btn-default"><span class="glyphicon glyphicon-home"></span> Back to Homepage</button>
+              </div>
+          </div>
+      </form>
+<br />

@@ -1,14 +1,12 @@
 ﻿<Properties StartupConfiguration="{605D8B5D-4F47-4E85-82A4-71A97381DA30}|Default">
   <MonoDevelop.Ide.ItemProperties.Lab21 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab21/Views/Home/Confirm.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab21/wwwroot/css/site.css">
     <Files>
-      <File FileName="Lab21/Controllers/HomeController.cs" Line="56" Column="47" />
-      <File FileName="Lab21/Models/UserInfo.cs" Line="40" Column="27" />
-      <File FileName="Lab21/Views/Home/Register.cshtml" Line="12" Column="52" />
-      <File FileName="Lab21/Views/Home/Signup.cshtml" Line="14" Column="52" />
-      <File FileName="Lab21/Views/Home/Error.cshtml" Line="16" Column="1" />
-      <File FileName="Lab21/Views/Shared/_Layout.cshtml" Line="7" Column="38" />
-      <File FileName="Lab21/Views/Home/Confirm.cshtml" Line="17" Column="1" />
+      <File FileName="Lab21/Controllers/HomeController.cs" Line="41" Column="54" />
+      <File FileName="Lab21/Views/Shared/_Layout.cshtml" Line="21" Column="20" />
+      <File FileName="Lab21/Views/Home/Index.cshtml" Line="12" Column="1" />
+      <File FileName="Lab21/wwwroot/css/site.css" Line="57" Column="2" />
+      <File FileName="Lab21/Views/Home/Register.cshtml" Line="55" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

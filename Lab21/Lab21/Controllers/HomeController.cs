@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Lab21.Models;
-
+using System.Diagnostics.Contracts;
 
 namespace Lab21.Controllers
 {
@@ -43,8 +43,9 @@ namespace Lab21.Controllers
         //    // ...
         //}
 
-        public IActionResult AddUser(UserInfo newUser)
+        public IActionResult AlsoAddUser(AlsoUserInfo newUser)
         {
+            Contract.Ensures(Contract.Result<IActionResult>() != null);
             // To do: add validation
             if (ModelState.IsValid) //checks the model state.. the [Required] attributes on the UserInfo.cs
             {
@@ -52,15 +53,28 @@ namespace Lab21.Controllers
                 // To do: confirmation or maybe send back to the Index page
                 //ViewData["ConfMessage"] = "Thanks " + newUser.FirstName + " !"; //this is dictionary/hashtable OLD
                 //New dynamic dictionary; both data structures
-                ViewBag.ConfMessage = "Thanks " + newUser.FirstName;  
+                ViewBag.ConfMessage = " Thanks for registering " + newUser.FirstName + " !";
                 return View("Confirm"); //action goes to the View of Confirm page 
             }
 
-            else 
+            return View("Error");
+        }
+
+        public IActionResult AddUser(UserInfo newUser)
+        {
+            Contract.Ensures(Contract.Result<IActionResult>() != null);
+            // To do: add validation
+            if (ModelState.IsValid) //checks the model state.. the [Required] attributes on the UserInfo.cs
             {
-                return View("Error");
+                // To do: add the data to the database
+                // To do: confirmation or maybe send back to the Index page
+                //ViewData["ConfMessage"] = "Thanks " + newUser.FirstName + " !"; //this is dictionary/hashtable OLD
+                //New dynamic dictionary; both data structures
+                ViewBag.ConfMessage = " Thanks for signing up " + newUser.FirstName + " !";  
+                return View("Confirm"); //action goes to the View of Confirm page 
             }
 
+            return View("Error");
         }
 
         public IActionResult Signup()
@@ -68,6 +82,11 @@ namespace Lab21.Controllers
             //ViewData["SignupMessage"] = "Please sign up here!";
             ViewBag.SignupMessage = "Please sign up here!";
             return View();
+        }
+
+        public IActionResult MyFunction()
+        {
+            return View("Home");
         }
 
         public IActionResult Privacy()

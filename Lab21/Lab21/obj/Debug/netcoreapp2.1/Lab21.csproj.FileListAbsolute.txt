@@ -35,3 +35,4 @@
 /Users/samanthamazzola/Documents/Projects/Lab21/Lab21/Lab21/obj/Debug/netcoreapp2.1/Razor/Views/Home/Signup.g.cshtml.cs
 /Users/samanthamazzola/Documents/Projects/Lab21/Lab21/Lab21/obj/Debug/netcoreapp2.1/Razor/Views/Home/Error.g.cshtml.cs
 /Users/samanthamazzola/Documents/Projects/Lab21/Lab21/Lab21/obj/Debug/netcoreapp2.1/Razor/Views/Home/Confirm.g.cshtml.cs
+/Users/samanthamazzola/Documents/Projects/Lab21/Lab21/Lab21/obj/Debug/netcoreapp2.1/Razor/Views/Home/AlsoAddUser.g.cshtml.cs

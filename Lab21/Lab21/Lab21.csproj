@@ -9,11 +9,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\bitmoji_fireprayer.png" />
     <Content Remove="wwwroot\bitmoji_fireprayer.ico" />
+    <Content Remove="wwwroot\images\bitmoji_fireprayer.png" />
+    <Content Remove="wwwroot\images\matrix.jpeg" />
+    <Content Remove="wwwroot\images\Matrix-PNG-Image-1-395x279.png" />
+    <Content Remove="wwwroot\images\matrix-1274888_960_720.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="wwwroot\bitmoji_fireprayer.png" />
     <None Include="wwwroot\bitmoji_fireprayer.ico" />
+    <None Include="wwwroot\images\bitmoji_fireprayer.png" />
+    <None Include="wwwroot\images\Matrix-PNG-Image-1-395x279.png" />
+    <None Include="wwwroot\images\matrix-1274888_960_720.png" />
   </ItemGroup>
 </Project>

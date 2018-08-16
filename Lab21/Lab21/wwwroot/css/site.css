@@ -3,6 +3,12 @@ for details on configuring this project to bundle and minify static web assets. 
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image: url("/../images/matrix-1274888_960_720.png");
+    background-size: 100%;
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
 }
 
 /* Wrapping element */
@@ -10,6 +16,8 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+
+    color: black;
 }
 
 /* Carousel */
@@ -33,5 +41,36 @@ body {
     /* Hide captions */
     .carousel-caption {
         display: none;
+    }
+}
+
+div.mouseover {
+    cursor: progress;
+}
+
+#myDiv {
+    width: 300px;
+    height: 200px;
+    background: gainsboro;
+    -webkit-animation: wavybby 3s infinite; /* Chrome, Safari, Opera */
+    animation: wavybby 3s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes wavybby {
+    0% {
+        background-color: blueviolet;
+    }
+    
+    25% {
+        background-color: dodgerblue;
+    }
+
+    50% {
+        background-color: mediumseagreen;
+    }
+
+    100% {
+        background-color: gainsboro;
     }
 }

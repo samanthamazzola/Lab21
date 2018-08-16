@@ -30,6 +30,7 @@ namespace Lab21.Models
         // required is saying, if FirstName is set, give it. validates input
         [RegularExpression("[a-zA-Z]{1}[a-zA-Z]{1,}")]
         public string FirstName { set; get; }
+
         [Required]
         [RegularExpression("[a-zA-Z]{1}[a-zA-Z]{1,}")]
         public string LastName { set; get; }
