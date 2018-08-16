@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{605D8B5D-4F47-4E85-82A4-71A97381DA30}|Default">
   <MonoDevelop.Ide.ItemProperties.Lab21 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab21/wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab21/Controllers/HomeController.cs">
     <Files>
       <File FileName="Lab21/Controllers/HomeController.cs" Line="41" Column="54" />
       <File FileName="Lab21/Views/Shared/_Layout.cshtml" Line="21" Column="20" />

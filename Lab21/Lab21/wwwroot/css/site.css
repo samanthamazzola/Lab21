@@ -16,7 +16,11 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-
+    background-image: url("/../images/matrix-1274888_960_720.png");
+    background-size: 100%;
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+    background-position: center;
     color: black;
 }
 
@@ -44,7 +48,7 @@ body {
     }
 }
 
-div.mouseover {
+.progress {
     cursor: progress;
 }
 
@@ -52,22 +56,30 @@ div.mouseover {
     width: 300px;
     height: 200px;
     background: gainsboro;
-    -webkit-animation: wavybby 3s infinite; /* Chrome, Safari, Opera */
-    animation: wavybby 3s infinite;
+    -webkit-animation: wavybby 5s infinite; /* Chrome, Safari, Opera */
+    animation: wavybby 5s infinite;
 }
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes wavybby {
     0% {
-        background-color: blueviolet;
+        background-color: violet;
     }
     
-    25% {
+    20% {
+        background-color: blueviolet;
+    }
+
+    40% {
         background-color: dodgerblue;
     }
 
-    50% {
+    60% {
         background-color: mediumseagreen;
+    }
+
+    80% {
+        background-color: greenyellow;
     }
 
     100% {
